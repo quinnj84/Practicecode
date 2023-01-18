@@ -1,0 +1,38 @@
+.header {
+    font-size: 20px;
+    text-align: center;
+    font-family: verdana;
+    color: #807371;
+    text-decoration: underline;
+}
+
+.subheading {
+    font-size: 20px;
+    text-align: left;
+    font-family: verdana;
+    color: #807371;
+    text-decoration: underline;
+}
+
+body {
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: #C9C2D3;
+    font-family: verdana
+}
+
+.jobtitle {
+ text-decoration: underline;
+ color: #807371;
+}
+
+span {
+    float: right;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 1200px;
+    padding: 20px;
+    border-color: #807371;
+}
