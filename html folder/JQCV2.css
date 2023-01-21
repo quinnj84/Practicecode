@@ -1,0 +1,104 @@
+.header {
+    font-size: 20px;
+    text-align: center;
+    font-family: verdana;
+    color: #807371;
+    text-decoration: underline;
+}
+
+.subheading {
+    font-size: 20px;
+    text-align: left;
+    font-family: verdana;
+    color: #807371;
+    text-decoration: underline;
+}
+
+body {
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: #ebe4e3;
+    font-family: verdana
+}
+
+.jobtitle {
+ text-decoration: underline;
+ color: #807371;
+}
+
+span {
+    float: right;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 1200px;
+    padding: 20px;
+    border-color: #807371;
+}
+
+a:link {
+    color:none
+}
+
+a:visited {
+    color:#807371
+}
+
+a:hover {
+    color:#807371;
+    font-size: larger;
+}
+
+a:active {
+    color:#807371
+}
+
+li {
+    font-style: italic;
+}
+
+#flexbox {
+    display: flex;
+    align-content: center;
+    width: 1340px;
+}
+
+.box {
+    width: 500px;
+    height: 50px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    background: #807371;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font: verdana;
+}
+
+.box a:link {
+    color:white;
+}
+
+.box a:visited {
+    color:white;
+}
+
+.box a:hover {
+    color:white;
+    font-size: larger;
+}
+
+.box a:active {
+    color:white
+}
+
+/* I cant seem to figure out how to make the screen change when I reduce the screen size. */
+
+/* @media only screen and (max-width: 768px) {
+    {
+      width: auto;
+    } */
