@@ -14,6 +14,12 @@
     text-decoration: underline;
 }
 
+/* .subheadingskills {font-size: 20px;
+    text-align: left;
+    font-family: verdana;
+    color: #807371;
+    text-decoration: underline;} */
+
 body {
     margin-right: 300px;
     margin-left: 300px;
@@ -35,6 +41,7 @@ span {
     width: 1200px;
     padding: 20px;
     border-color: #807371;
+    
 }
 
 a:link {
@@ -94,6 +101,21 @@ li {
 
 .box a:active {
     color:white
+}
+
+.subheadingskills {
+    font-size: 18px;
+    margin-left: -3px;
+    background-color: #ebe4e3;
+    color: #807371;
+    border: none;
+    font-family: verdana;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.active, .subheadingskills:hover {
+    background-color:#ebe4e3
 }
 
 /* I cant seem to figure out how to make the screen change when I reduce the screen size. */
