@@ -104,7 +104,7 @@ li {
 }
 
 .subheadingskills {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: -3px;
     background-color: #ebe4e3;
     color: #807371;
@@ -118,6 +118,36 @@ li {
     background-color:#ebe4e3
 }
 
+.counter {
+    text-align:left;
+}
+
+.frame2 {
+    border: 50px solid black;
+    width: 1200px;
+    padding: 20px;
+    border-color: #807371;
+}
+
+label {
+    display: inline-block;
+    width:250px;
+    text-align: left;
+}
+.left {
+    text-align:left;
+}
+
+.button {
+    background-color: #807371;
+    border: none;
+    margin-left: 480px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    color: white;
+}
 /* I cant seem to figure out how to make the screen change when I reduce the screen size. */
 
 /* @media only screen and (max-width: 768px) {
