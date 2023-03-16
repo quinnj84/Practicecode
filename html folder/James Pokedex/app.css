@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(184, 110, 184);
+    color: #d5d0d0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #d5d0d0;
+    color:rgb(184, 110, 184);
+    border: 5px;
+    margin-left: 50px;
+    margin-right: 900px;
+    border-radius: 25px;
+    height:150px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.slogan {
+    float: left;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+.gif {
+    height: 80px;
+    width: 80px;
+    padding: 30px;
+    float: left;
+}
+
+.link {
+    font-family: verdana;
+    font-size: 40px;
+    padding: 7px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.link:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    color:rgb(184, 110, 184);
+    background-color: #d5d0d0;
+    border: 5px;
+    margin-right: 50px;
+    margin-left: 1050px;
+    border-radius: 25px;
+    height:150px;
+    margin-top: -148px;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 54px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: #d5d0d0;
+    color: #222;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card:hover {
+    animation: bounce 0.5s linear;
+    cursor: pointer;
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    color: rgb(184, 110, 184)
+}
+.card-subtitle {
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+}
+
+.card-image {
+    height: 120px;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    80% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 30vw;
+    background: #7c5555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:665px;
+    margin-top: 160px;
+    border-radius: 15px;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    background-color: rgb(184, 110, 184);
+    padding: 10px 20px;
+    border: none;
+    color: #d5d0d0;
+    border-radius: 3px;
+    transition: transform 100ms;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0px 1px 2px rgb(184, 110, 184);
+}
+
